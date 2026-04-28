@@ -73,8 +73,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(520,110)" to="(520,190)"/>
     <wire from="(300,160)" to="(300,190)"/>
     <wire from="(320,190)" to="(360,190)"/>
-    <wire from="(130,310)" to="(130,340)"/>
     <wire from="(190,210)" to="(190,240)"/>
+    <wire from="(130,310)" to="(130,340)"/>
     <wire from="(230,70)" to="(230,100)"/>
     <wire from="(190,310)" to="(190,340)"/>
     <wire from="(290,360)" to="(520,360)"/>
@@ -189,6 +189,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Overflow"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp loc="(140,270)" name="UC"/>
     <comp lib="4" loc="(110,180)" name="Counter">
       <a name="width" val="4"/>
       <a name="max" val="0xf"/>
@@ -216,7 +217,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="radix" val="10signed"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(140,270)" name="UC"/>
   </circuit>
   <circuit name="Add_1">
     <a name="circuit" val="Add_1"/>
@@ -1992,15 +1992,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <text font-family="SansSerif" font-size="20" text-anchor="middle" x="79" y="169">UC</text>
       <circ-port height="8" pin="70,80" width="8" x="66" y="196"/>
       <circ-port height="8" pin="70,110" width="8" x="86" y="196"/>
-      <circ-port height="10" pin="70,140" width="10" x="125" y="195"/>
+      <circ-port height="10" pin="70,140" width="10" x="55" y="125"/>
       <circ-port height="10" pin="480,80" width="10" x="25" y="125"/>
       <circ-port height="10" pin="480,120" width="10" x="115" y="125"/>
-      <circ-port height="10" pin="420,160" width="10" x="85" y="125"/>
+      <circ-port height="10" pin="420,160" width="10" x="125" y="125"/>
       <circ-port height="8" pin="370,40" width="8" x="106" y="126"/>
       <circ-port height="10" pin="160,80" width="10" x="75" y="125"/>
       <circ-port height="10" pin="190,100" width="10" x="45" y="125"/>
-      <circ-port height="10" pin="220,100" width="10" x="55" y="125"/>
-      <circ-port height="10" pin="250,100" width="10" x="125" y="125"/>
+      <circ-port height="10" pin="220,100" width="10" x="125" y="195"/>
+      <circ-port height="10" pin="250,100" width="10" x="85" y="125"/>
       <circ-port height="10" pin="320,220" width="10" x="15" y="135"/>
       <circ-port height="10" pin="410,190" width="10" x="135" y="185"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="157"/>
